@@ -28,9 +28,9 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E        &kp R     &kp T  &kp TAB      &kp Y          &kp U              &kp I       &kp O          &kp P
-&kp A           &kp S         &kp D        &kp F     &kp G  &lt 5 SPACE  &kp G          &kp H              &kp J       &kp K          &kp L
-&kp Z           &kp X         &kp C        &kp V     &kp B  &mkp MB2     &kp M          &kp COMMA          &kp PERIOD  &kp RS(SLASH)  &kp MINUS
+&kp Q           &kp W         &kp E        &kp R     &kp T  &kp TAB      &kp Y          &kp U              &kp I       &kp O      &kp P
+&kp A           &kp S         &kp D        &kp F     &kp G  &lt 5 SPACE  &kp H          &kp J              &kp K       &kp L      &kp MINUS
+&kp Z           &kp X         &kp C        &kp V     &kp B  &mkp MB2     &kp M          &kp COMMA          &kp PERIOD  &kp SLASH  &kp RS(SLASH)
 &kp LEFT_SHIFT  &kp LEFT_WIN  &lt 3 SPACE  &mkp MB1  &kp N  &lt 1 ENTER  &kp BACKSPACE  &kp RIGHT_CONTROL  &kp EQUAL
             >;
 
@@ -46,10 +46,10 @@
 
         Lower_layer {
             bindings = <
-&kp FSLH    &kp COMMA  &kp END    &kp LEFT_BRACE  &kp DOUBLE_QUOTES  &kp PAUSE_BREAK  &kp LPAR   &kp RPAR   &kp UP     &kp LBKT   &kp RBKT
-&kp HOME    &kp LS(S)  &kp E      &kp RPAR        &kp U              &kp SCROLLLOCK   &kp BSPC   &kp LEFT   &kp DOWN   &kp RIGHT  &kp DEL
-&kp LC(Z)   &kp LC(X)  &kp LC(C)  &kp LC(V)       &kp Q              &kp TAB          &kp APOS   &kp EQUAL  &kp BSLH   &kp GRAVE  &kp INS
-&kp LSHIFT  &none      &kp SPACE  &kp LALT        &kp PSCRN          &kp RSHIFT       &kp ENTER  &mo 4      &kp RCTRL
+&kp LS(NUMBER_1)  &kp RS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)      &kp TAB  &kp RS(NUMBER_6)  &kp RS(N7)  &kp RS(N8)  &kp RS(N9)  &kp RS(N0)
+&kp LEFT          &kp UP_ARROW      &kp RIGHT         &trans            &kp LANGUAGE_1  &trans   &trans            &trans      &trans      &trans      &trans
+&kp LEFT          &kp DOWN          &kp RIGHT         &trans            &kp LANGUAGE_2  &trans   &trans            &trans      &trans      &trans      &trans
+&kp LSHIFT        &none             &trans            &trans            &trans          &trans   &trans            &trans      &trans
             >;
         };
 
