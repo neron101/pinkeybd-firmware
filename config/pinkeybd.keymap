@@ -28,10 +28,10 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp Q             &kp W      &kp E         &kp R     &kp T        &kp Y          &kp U             &kp I      &kp O       &kp P
-&kp LEFT_CONTROL  &kp A             &kp S      &kp D         &kp F     &kp G        &kp G          &kp H             &kp T      &kp K       &kp K
-&kp LEFT_SHIFT    &kp Z             &kp X      &kp C         &kp V     &kp B        &kp N          &kp M             &kp COMMA  &kp PERIOD  &kp Z
-&kp LSHIFT        &lt 1 LANGUAGE_1  &kp SPACE  &kp LEFT_WIN  &mkp MB2  &lt 1 ENTER  &kp BACKSPACE  &lt 3 LANGUAGE_2  &mo 2
+&kp TAB           &kp Q             &kp W        &kp E     &kp R     &kp T        &kp Y          &kp U             &kp I      &kp O       &kp P
+&kp LEFT_CONTROL  &kp A             &kp S        &kp D     &kp F     &kp G        &kp G          &kp H             &kp J      &kp K       &kp K
+&kp LEFT_SHIFT    &kp Z             &kp X        &kp C     &kp V     &kp B        &kp N          &kp M             &kp COMMA  &kp PERIOD  &kp Z
+&kp LSHIFT        &lt 1 LANGUAGE_1  &lt 3 SPACE  &mkp MB1  &mkp MB2  &lt 1 ENTER  &kp BACKSPACE  &lt 3 LANGUAGE_2  &mo 2
             >;
 
             sensor-bindings = <&rot_kp PG_DN PG_UP>;
