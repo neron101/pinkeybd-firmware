@@ -78,10 +78,10 @@
 
         Num_layer {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp N5          &trans          &kp N6            &kp N7             &kp N8     &kp N9     &kp N0
-&kp LEFT      &kp UP_ARROW  &kp RIGHT        &trans        &kp LANGUAGE_1  &kp LANGUAGE_1  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp TILDE  &kp RS(QUESTION)
-&trans        &kp DOWN      &kp RIGHT_ARROW  &trans        &kp LANGUAGE_2  &kp LANGUAGE_2  &kp SEMICOLON     &kp SINGLE_QUOTE   &kp MINUS  &kp EQUAL  &kp SLASH
-&trans        &mo 5         &kp SPACE        &kp LSHIFT    &trans          &kp RSHIFT      &kp ENTER         &none              &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp N5             &trans          &kp N6            &kp N7             &kp N8     &kp N9     &kp N0
+&kp LEFT      &kp UP_ARROW  &kp RIGHT        &trans        &kp LANGUAGE_1     &kp LANGUAGE_1  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp TILDE  &kp RS(QUESTION)
+&trans        &kp DOWN      &kp RIGHT_ARROW  &trans        &kp LANGUAGE_2     &kp LANGUAGE_2  &kp SEMICOLON     &kp SINGLE_QUOTE   &kp MINUS  &kp EQUAL  &kp SLASH
+&trans        &trans        &trans           &trans        &kp RS(BACKSLASH)  &trans          &trans            &none              &trans
             >;
         };
 
