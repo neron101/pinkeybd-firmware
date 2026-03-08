@@ -16,6 +16,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        cl {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <0 1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
