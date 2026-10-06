@@ -55,5 +55,10 @@
         status="okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
+        input-processors = <&mouse_runtime_input_processor>; // DYA Studioから速度変更可
     };
 };
+
+/* DYA Studio: trackball speed runtime processor (included last: it redefines RC()) */
+#include <input/processors/runtime-input-processor.dtsi>
+#include <behaviors/battery_history_request.dtsi>
